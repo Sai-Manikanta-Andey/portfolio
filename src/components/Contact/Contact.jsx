@@ -28,7 +28,13 @@ const Contact = () => {
               <p>saimanikantaandey711@gmail.com</p>
             </div>
             <button>
-              <a href="mailto:saimanikantaandey711@gmail.com" className="contact-button"> Contact</a>
+              <a
+                href="mailto:saimanikantaandey711@gmail.com"
+                className="contact-button"
+              >
+                {" "}
+                Contact
+              </a>
             </button>
           </div>
         </div>
