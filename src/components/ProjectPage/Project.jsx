@@ -33,7 +33,7 @@ const Project = () => {
       image: "./dicegame.png",
       projectDescription:
         "A fun game where you can guess a number and roll the dice, on guessing correctly you'll get points and if you guess wrong , points will be deducted.",
-      stack: [{id:1,tech:"JavaScript"}, {id:2,tech:"CSS"}],
+      stack: [{id:1,tech:"React"}, {id:2,tech:"CSS"}],
       liveUrl: "https://tranquil-kitten-bca2cd.netlify.app/",
       githubUrl: "https://github.com/Sai-Manikanta-Andey/ReactDiceGameP3",
     },

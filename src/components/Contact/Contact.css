@@ -20,6 +20,22 @@ button{
     padding: 0.6rem 2rem;
     
 }
+button{
+    width: 100%;
+    background: #0775F0;
+    padding: .6rem 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+    transition: all 300ms ease-in;
+    
+}
+button:hover{
+    scale: 1.05;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+}
 .para{
     padding: 1rem;
 }
@@ -43,10 +59,18 @@ button{
     .about-container{
         flex-direction: column;
     }
+
 }
 
 @media (max-width:640px) {
     .para{
         padding: 0;
+    }
+    @media (max-width:768px) {
+            button:hover{
+    scale: 1;
+    box-shadow: none;
+    
+}
     }
 }

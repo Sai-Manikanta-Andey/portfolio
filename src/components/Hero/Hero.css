@@ -83,6 +83,12 @@
         margin: 1rem 0rem;
         
     }
+    .social-links>a>img:hover{
+    scale: 1;
+    
+
+}
+
 }
 
 @media (max-width:640px) {
