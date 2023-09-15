@@ -12,7 +12,10 @@ const Project = () => {
 
       projectDescription:
         "A simple responsive website developed using react js and css. An online platform where users can see different properties to buy and rent.  ",
-      stack: [{id:1,tech:"React"}, {id:2,tech:"CSS"}],
+      stack: [
+        { id: 1, tech: "React" },
+        { id: 2, tech: "CSS" },
+      ],
       liveUrl: "https://realestateweb1.netlify.app",
       githubUrl:
         "https://github.com/Sai-Manikanta-Andey/RealEstateWebsite-using-react",
@@ -23,9 +26,13 @@ const Project = () => {
       image: "./nike1.png",
       projectDescription:
         "A simple Ecommerce store of Nike. A platform where users can buy exclusive nike special edition only sneakers.",
-      stack: [{id:1,tech:"JavaScript"}, {id:2,tech:"CSS"}],
-      liveUrl: "https://tranquil-kitten-bca2cd.netlify.app/",
-      githubUrl: "https://github.com/Sai-Manikanta-Andey/ReactDiceGameP3",
+      stack: [
+        { id: 1, tech: "JavaScript" },
+        { id: 2, tech: "CSS" },
+      ],
+      liveUrl: "https://nikeee-sai.netlify.app/",
+      githubUrl:
+        "https://github.com/Sai-Manikanta-Andey/EcommerceWebsite_NikeSpecialSeason",
     },
     {
       id: 3,
@@ -33,7 +40,10 @@ const Project = () => {
       image: "./dicegame.png",
       projectDescription:
         "A fun game where you can guess a number and roll the dice, on guessing correctly you'll get points and if you guess wrong , points will be deducted.",
-      stack: [{id:1,tech:"React"}, {id:2,tech:"CSS"}],
+      stack: [
+        { id: 1, tech: "React" },
+        { id: 2, tech: "CSS" },
+      ],
       liveUrl: "https://tranquil-kitten-bca2cd.netlify.app/",
       githubUrl: "https://github.com/Sai-Manikanta-Andey/ReactDiceGameP3",
     },
