@@ -41,7 +41,7 @@ const Project = () => {
   return (
     <section className="project-wrapper" id="Projects">
       <div className="paddings innerWidth project-container">
-        <h2 className="Heading">Projects</h2>
+        <h2 className="Heading">PROJECTS</h2>
         {projectData.map((eachObj) => {
           return (
             <div className="innerContainer" key={eachObj.id}>

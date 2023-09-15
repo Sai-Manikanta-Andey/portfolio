@@ -7,7 +7,7 @@ const Contact = () => {
     <section className="paddings innerWidth contact-wrapper" id="Contact">
       <div className="contact-container">
         <div className="contact-title">
-          <h3>Contact</h3>
+          <h3>CONTACT</h3>
         </div>
         <div className="container-contact">
           <div className="left">
@@ -28,7 +28,7 @@ const Contact = () => {
               <p>saimanikantaandey711@gmail.com</p>
             </div>
             <button>
-              <a href="mailto:saimanikantaandey711@gmail.com"> Contact</a>
+              <a href="mailto:saimanikantaandey711@gmail.com" className="contact-button"> Contact</a>
             </button>
           </div>
         </div>
