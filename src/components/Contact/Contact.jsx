@@ -14,7 +14,7 @@ const Contact = () => {
             <p className="  para secondaryText">
               Feel free to reach out for
               <strong style={{ color: "black" }}> job opportunities</strong> as
-              I'm a fresher graduate looking for oppurtunities, or any inquiries
+              I'm a recent graduate looking for oppurtunities, or any inquiries
               related to my work. I'm excited to connect with fellow
               professionals in Web Technologies.
             </p>
