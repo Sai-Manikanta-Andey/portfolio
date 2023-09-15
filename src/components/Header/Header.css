@@ -1,0 +1,53 @@
+.h-container{
+    color: black;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    position: relative;
+    overflow-x: clip;
+}
+.nav-items{
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    
+}
+.menu-icon{
+    display: none;
+}
+.nav-items>li>a{
+    transition: all 300ms ease-in;
+}
+.nav-items>li>a:hover{
+color: #F8CA0B;
+}
+@media (max-width:760px) {
+    .menu-icon{
+        display: block;
+    }
+    .nav-items{
+        position: absolute;
+        flex-direction: column;
+        top: 4rem;
+        right: 2rem;
+        padding: 2rem;
+        background: #F8CA0B;
+        backdrop-filter: b ;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; ;
+        transition: all 300ms ease-in-out;
+        border-radius: 5px;
+        
+    }
+    .nav{
+        padding: 1rem;
+    }
+    .nav-items>li>a:hover{
+    color:black;
+}
+    
+}
+

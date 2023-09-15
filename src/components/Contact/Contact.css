@@ -1,0 +1,52 @@
+
+.container-contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.container-contact>div{
+    flex:1;
+}
+.contact-title>h3{
+    color: #0775F0;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+
+}
+button{
+    margin: 1rem 0;
+    padding: 0.6rem 2rem;
+    
+}
+.para{
+    padding: 1rem;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.mailId>p{
+    font-size: .8rem;
+    font-weight: 500;
+    color: rgb(79, 79, 79);
+}
+.copyrights{
+    margin-top: 2rem;
+    text-align: center;
+    opacity: .8;
+}
+
+@media (max-width:1024px) {
+    .about-container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:640px) {
+    .para{
+        padding: 0;
+    }
+}
