@@ -25,11 +25,11 @@ const Contact = () => {
               Mail
             </div>
             <div className="mailId">
-              <p>saimanikantaandey711@gmail.com</p>
+              <p>sai.manikanta.andey@gmail.com</p>
             </div>
             <button>
               <a
-                href="mailto:saimanikantaandey711@gmail.com"
+                href="mailto:sai.manikanta.andey@gmail.com"
                 className="contact-button"
               >
                 {" "}
