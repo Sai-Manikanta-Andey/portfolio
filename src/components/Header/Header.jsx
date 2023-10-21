@@ -21,7 +21,7 @@ const Header = () => {
           <OutsideClickHandler onOutsideClick={()=>SetOpenMenu(false)} >
             <ul className="nav-items " style={getStyle(OpenMenu)}>
               <li>
-                <a href="#Home">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#About">About</a>
