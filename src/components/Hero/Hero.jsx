@@ -1,16 +1,18 @@
 import React from "react";
 import "./Hero.css";
 
+
 const Hero = () => {
   return (
     <section className="hero-wrapper " id="Home">
+      
       <div className="profile-container innerWidth">
         <div className="paddings innerWidth profile-innerContainer ">
           {/* hero left side */}
           <div className="hero-left innerWidth">
             <div className="hero-title primaryText">
               <h1>
-                Front-End React <br /> Developer
+                Front-End Developer
               </h1>
             </div>
             <div className="hero-intro ">
