@@ -16,7 +16,7 @@ const Header = () => {
       <header className="h-container innerWidth">
         <nav className="nav ">
           <div className="nav-logo">
-            <h3 >Smk.dev</h3>
+            Smk.dev
           </div>
           <OutsideClickHandler onOutsideClick={()=>SetOpenMenu(false)} >
             <ul className="nav-items " style={getStyle(OpenMenu)}>

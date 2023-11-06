@@ -5,6 +5,7 @@
     list-style: none;
     scrollbar-color: #F8CA0B #fff;
     scroll-behavior: smooth;
+    font: inherit;
 }
 body{
     font-family: 'Poppins', sans-serif;

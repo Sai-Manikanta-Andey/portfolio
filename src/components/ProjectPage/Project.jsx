@@ -21,6 +21,20 @@ const Project = () => {
         "https://github.com/Sai-Manikanta-Andey/RealEstateWebsite-using-react",
     },
     {
+      id: 4,
+      title: "Ecommerce Website ",
+      image: "./Fakestore.png",
+
+      projectDescription:
+        "A Ecommerce website having a simple UI where users can find various products, and add to cart.It has shimmer UI for better user experience.  ",
+      stack: [
+        { id: 1, tech: "React" },
+        { id: 2, tech: "CSS" },
+      ],
+      liveUrl: "https://fakestoretest.vercel.app/",
+      githubUrl: "https://github.com/Sai-Manikanta-Andey/EcommerceFakeApi",
+    },
+    {
       id: 2,
       title: "Nike Store",
       image: "./nike1.png",
