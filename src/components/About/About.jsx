@@ -11,7 +11,7 @@ const About = () => {
         {/* right side */}
         <div className="about">
           <div className="about-title">
-            <h2>ABOUT</h2>
+            <h2 className='heading'>ABOUT</h2>
           </div>
           <div className="about-para ">
             <p className="secondaryText">

@@ -7,7 +7,7 @@ const Contact = () => {
     <section className="paddings innerWidth contact-wrapper" id="Contact">
       <div className="contact-container">
         <div className="contact-title">
-          <h3>CONTACT</h3>
+          <h3 className="heading">CONTACT</h3>
         </div>
         <div className="container-contact">
           <div className="left">

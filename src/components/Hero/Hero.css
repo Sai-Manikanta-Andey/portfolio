@@ -52,7 +52,9 @@
     display: flex;
     gap: 2rem;
 }
-
+.techstack-title>h4>span{
+    font-weight: 600;
+}
 
 /* hero right side */
 .image-container{
