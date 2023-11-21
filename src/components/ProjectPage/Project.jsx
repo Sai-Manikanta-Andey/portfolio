@@ -8,7 +8,7 @@ const Project = () => {
     {
       id: 1,
       title: "Real-Estate Website ",
-      image: "./.png",
+      image: "./realestate.png",
 
       projectDescription:
         "A simple responsive website developed using react js and css. An online platform where users can see different properties to buy and rent.  ",
