@@ -8,7 +8,7 @@ const Project = () => {
     {
       id: 1,
       title: "Real-Estate Website ",
-      image: "./realestate.png",
+      image: "./.png",
 
       projectDescription:
         "A simple responsive website developed using react js and css. An online platform where users can see different properties to buy and rent.  ",
@@ -19,6 +19,21 @@ const Project = () => {
       liveUrl: "https://realestateweb1.netlify.app",
       githubUrl:
         "https://github.com/Sai-Manikanta-Andey/RealEstateWebsite-using-react",
+    },
+    {
+      id: 5,
+      title: "Car Rental Website ",
+      image: "./carrental.png",
+
+      projectDescription:
+        "A platform where premium cars are available for renting and car services like washing, repairing, spare parts are also available 24/7. ",
+      stack: [
+        { id: 1, tech: "React" },
+        { id: 2, tech: "Tailwind CSS" },
+      ],
+      liveUrl: "https://car-rental007.vercel.app/",
+      githubUrl:
+        "https://github.com/Sai-Manikanta-Andey/CarRentalUsingReactTailwind",
     },
     {
       id: 4,
