@@ -23,7 +23,7 @@ const Project = () => {
     {
       id: 5,
       title: "Car Rental Website ",
-      image: "./Carwebsite.png",
+      image: "./carvala.png",
 
       projectDescription:
         "A platform where premium cars are available for renting and car services like washing, repairing, spare parts are also available 24/7. ",
