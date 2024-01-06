@@ -2,7 +2,7 @@
 .container-contact{
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4rem;
 }
 .container-contact>div{
     flex:1;
@@ -28,9 +28,9 @@ button{
 }
 button{
     width: 100%;
-    background: #0775F0;
+    background: black;
     padding: .6rem 1.2rem;
-    border: none;
+   
     outline: none;
     border-radius: 5px;
     
@@ -51,6 +51,32 @@ button:hover{
     gap: .5rem;
     color: black;
 }
+
+.top-input-fields{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.each-input{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.input{
+    padding: .5rem;
+    outline: none;
+    border: 2px solid rgb(222, 222, 222);
+    
+    border-radius: 4px;
+}
+
+.input-container{
+    margin: auto;
+   max-width: 500px;
+}
 .mailId>p{
     font-size: 1rem;
     font-weight: 500;
@@ -70,6 +96,9 @@ button:hover{
 }
 
 @media (max-width:640px) {
+    .each-input{
+        width: 100%;
+    }
     .para{
         padding: 0;
     }

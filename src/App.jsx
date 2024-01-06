@@ -5,7 +5,7 @@ import Contact from './components/Contact/Contact'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Project from './components/ProjectPage/Project'
-
+import  { Toaster } from "react-hot-toast";
 function App() {
   
 
@@ -16,6 +16,7 @@ function App() {
       <About/>
       <Project/>
       <Contact/>
+      <Toaster/>
     </div>
   )
 }

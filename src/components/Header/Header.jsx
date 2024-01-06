@@ -15,10 +15,8 @@ const Header = () => {
     <section className="h-wrapper">
       <header className="h-container innerWidth">
         <nav className="nav ">
-          <div className="nav-logo">
-            Smk.dev
-          </div>
-          <OutsideClickHandler onOutsideClick={()=>SetOpenMenu(false)} >
+          <div className="nav-logo">Smk.dev</div>
+          <OutsideClickHandler onOutsideClick={() => SetOpenMenu(false)}>
             <ul className="nav-items " style={getStyle(OpenMenu)}>
               <li>
                 <a href="/">Home</a>
@@ -30,7 +28,9 @@ const Header = () => {
                 <a href="#Projects">Projects</a>
               </li>
               <li>
-                <a href="#Contact">Contact</a>
+                <a href="#Contact">
+                  <button>Contact</button>
+                </a>
               </li>
             </ul>
             <div className="menu-icon">

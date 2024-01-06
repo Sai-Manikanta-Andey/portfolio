@@ -5,15 +5,12 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <section className="hero-wrapper " id="Home">
-      
       <div className="profile-container innerWidth">
         <div className="paddings innerWidth profile-innerContainer ">
           {/* hero left side */}
           <div className="hero-left innerWidth">
             <div className="hero-title primaryText">
-              <h1>
-                Front-End Developer
-              </h1>
+              <h1>Front-End Developer</h1>
             </div>
             <div className="hero-intro ">
               <p className="secondaryText">
@@ -23,26 +20,35 @@ const Hero = () => {
             </div>
             <div className="social-links">
               <a href="https://github.com/Sai-Manikanta-Andey" target="_blank">
-                <img src="./github.png" alt="github" width={30} />
+                <img src="./github.svg" alt="github" width={30} />
               </a>
-              <a href="https://www.linkedin.com/in/sai-manikanta-andey/" target="_blank">
-                <img src="./linkedin.png" alt="linkedin" width={30} />
+              <a
+                href="https://www.linkedin.com/in/sai-manikanta-andey/"
+                target="_blank"
+              >
+                <img src="./linkedin.svg" alt="linkedin" width={30} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sai-manikanta-andey/"
+                target="_blank"
+              >
+                <img src="./twitter.svg" alt="twitter" width={30} />
               </a>
             </div>
             {/* tech stack beginning */}
             <div className=" innerWidth tech-stack">
               <div className="techstack-title ">
                 <h4 className="innerWidth">
-                  <span>Stack </span>
-                  <span>|</span>
+                  <span>Stack:</span>
                 </h4>
               </div>
               <div className="tech-stack-icons">
-                <img src="./html-5.png" alt="html" width={30} />
-                <img src="./css.png" alt="css" width={30} />
-                <img src="./js.png" alt="js" width={30} />
-                <img src="./react-js-icon.png" alt="react" width={30} />
-                <img src="./python.png" alt="python" width={30} />
+                <img src="./html.svg" alt="html" width={30} />
+                <img src="./css.svg" alt="css" width={30} />
+                <img src="./tailwind-css.svg" alt="tailwindcss" width={30} />
+                <img src="./javascript.svg" alt="js" width={30} />
+                <img src="./react.svg" alt="react" width={30} />
+                <img src="./python.svg" alt="python" width={30} />
               </div>
             </div>
           </div>
