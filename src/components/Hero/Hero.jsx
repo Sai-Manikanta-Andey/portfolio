@@ -29,7 +29,7 @@ const Hero = () => {
                 <img src="./linkedin.svg" alt="linkedin" width={30} />
               </a>
               <a
-                href="https://www.linkedin.com/in/sai-manikanta-andey/"
+                href="https://x.com/saiandey3?t=UCctt_4oLRBB1tvEUp4QpA&s=09"
                 target="_blank"
               >
                 <img src="./twitter.svg" alt="twitter" width={30} />
