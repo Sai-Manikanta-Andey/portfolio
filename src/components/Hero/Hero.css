@@ -56,6 +56,12 @@
     font-weight: 600;
 }
 
+.stack-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 /* hero right side */
 .image-container{
     width: 100%;
@@ -105,6 +111,9 @@
     }
     .tech-stack-icons{
         gap: .6rem;
+    }
+    .tech-stack-icons img{
+       width: 25px;
     }
     
     

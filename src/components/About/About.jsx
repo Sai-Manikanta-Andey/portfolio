@@ -11,16 +11,16 @@ const About = () => {
         {/* right side */}
         <div className="about">
           <div className="about-title">
-            <h2 className='heading'>ABOUT</h2>
+            <h2 className="heading">ABOUT</h2>
           </div>
           <div className="about-para ">
             <p className="secondaryText">
-              A
-              Passionate and dedicated Frontend Developer with a keen eye for
-              detail and a strong foundation in web technologies like HTML, CSS,
-              JavaScript and React with a deep understanding of responsive
-              design and user experience. Committed to continuous learning and staying updated
-              with the latest industry trends.
+              Experienced Frontend Developer proficient in HTML, CSS,
+              JavaScript, and React, Redux Toolkit, excelling in crafting intuitive user
+              interfaces. Actively broadening skill set to encompass backend
+              technologies, including Node.js, Express.js, and MongoDB.
+              Committed to ongoing learning and professional development for a
+              well-rounded expertise in web development.
             </p>
           </div>
         </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Hero.css";
 
-
 const Hero = () => {
   return (
     <section className="hero-wrapper " id="Home">
@@ -10,12 +9,11 @@ const Hero = () => {
           {/* hero left side */}
           <div className="hero-left innerWidth">
             <div className="hero-title primaryText">
-              <h1>Front-End Developer</h1>
+              <h1>Fullstack Developer</h1>
             </div>
             <div className="hero-intro ">
               <p className="secondaryText">
-                Hi, I'm Sai Manikanta Andey. A passionate react front-end
-                developer.
+                Hi, I'm Sai Manikanta Andey. A passionate fullstack developer.
               </p>
             </div>
             <div className="social-links">
@@ -36,20 +34,35 @@ const Hero = () => {
               </a>
             </div>
             {/* tech stack beginning */}
-            <div className=" innerWidth tech-stack">
-              <div className="techstack-title ">
-                <h4 className="innerWidth">
-                  <span>Stack:</span>
-                </h4>
+            <div className="stack-container">
+              <div className=" innerWidth tech-stack">
+                <div className="techstack-title ">
+                  <h4 className="innerWidth">
+                    <span>Frontend:</span>
+                  </h4>
+                </div>
+                <div className="tech-stack-icons">
+                  <img src="./html.svg" alt="html" width={30} />
+                  <img src="./css.svg" alt="css" width={30} />
+                  <img src="./tailwind-css.svg" alt="tailwindcss" width={30} />
+                  <img src="./javascript.svg" alt="js" width={30} />
+                  <img src="./react.svg" alt="react" width={30} />
+                  <img src="./redux.svg" alt="python" width={30} />
+                </div>
               </div>
-              <div className="tech-stack-icons">
-                <img src="./html.svg" alt="html" width={30} />
-                <img src="./css.svg" alt="css" width={30} />
-                <img src="./tailwind-css.svg" alt="tailwindcss" width={30} />
-                <img src="./javascript.svg" alt="js" width={30} />
-                <img src="./react.svg" alt="react" width={30} />
-                <img src="./python.svg" alt="python" width={30} />
+              <div className=" innerWidth tech-stack">
+                <div className="techstack-title ">
+                  <h4 className="innerWidth">
+                    <span>Backend:</span>
+                  </h4>
+                </div>
+                <div className="tech-stack-icons">
+                  <img src="./nodejs.svg" alt="css" width={30} />
+                  <img src="./express.svg" alt="html" width={30} />
+                  <img src="./mongodb.svg" alt="tailwindcss" width={30} />
+                </div>
               </div>
+              
             </div>
           </div>
 
