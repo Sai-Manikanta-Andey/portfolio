@@ -2,81 +2,10 @@ import React from "react";
 import "./Project.css";
 import { FaGithub } from "react-icons/fa";
 import {HiExternalLink} from "react-icons/hi"
+import { projectData } from "../../constants/ProjectData";
 
 const Project = () => {
-  const projectData = [
-    {
-      id: 1,
-      title: "Real-Estate Website ",
-      image: "./realestate.png",
-
-      projectDescription:
-        "A simple responsive website developed using react js and css. An online platform where users can see different properties to buy and rent.  ",
-      stack: [
-        { id: 1, tech: "React" },
-        { id: 2, tech: "CSS" },
-      ],
-      liveUrl: "https://realestateweb1.netlify.app",
-      githubUrl:
-        "https://github.com/Sai-Manikanta-Andey/RealEstateWebsite-using-react",
-    },
-    {
-      id: 5,
-      title: "Car Rental Website ",
-      image: "./carvala.png",
-
-      projectDescription:
-        "A platform where premium cars are available for renting and car services like washing, repairing, spare parts are also available 24/7. ",
-      stack: [
-        { id: 1, tech: "React" },
-        { id: 2, tech: "Tailwind CSS" },
-      ],
-      liveUrl: "https://car-rental007.vercel.app/",
-      githubUrl:
-        "https://github.com/Sai-Manikanta-Andey/CarRentalUsingReactTailwind",
-    },
-    {
-      id: 4,
-      title: "Ecommerce Website ",
-      image: "./Fakestore.png",
-
-      projectDescription:
-        "A Ecommerce website having a simple UI where users can find various products, and add to cart.It has shimmer UI for better user experience.  ",
-      stack: [
-        { id: 1, tech: "React" },
-        { id: 2, tech: "CSS" },
-      ],
-      liveUrl: "https://fakestoretest.vercel.app/",
-      githubUrl: "https://github.com/Sai-Manikanta-Andey/EcommerceFakeApi",
-    },
-    {
-      id: 2,
-      title: "Nike Store",
-      image: "./nike1.png",
-      projectDescription:
-        "A simple Ecommerce store of Nike. A platform where users can buy exclusive nike special edition only sneakers.",
-      stack: [
-        { id: 1, tech: "JavaScript" },
-        { id: 2, tech: "CSS" },
-      ],
-      liveUrl: "https://nikeee-sai.netlify.app/",
-      githubUrl:
-        "https://github.com/Sai-Manikanta-Andey/EcommerceWebsite_NikeSpecialSeason",
-    },
-    {
-      id: 3,
-      title: "Dice Game",
-      image: "./dicegame.png",
-      projectDescription:
-        "A fun game where you can guess a number and roll the dice, on guessing correctly you'll get points and if you guess wrong , points will be deducted.",
-      stack: [
-        { id: 1, tech: "React" },
-        { id: 2, tech: "CSS" },
-      ],
-      liveUrl: "https://tranquil-kitten-bca2cd.netlify.app/",
-      githubUrl: "https://github.com/Sai-Manikanta-Andey/ReactDiceGameP3",
-    },
-  ];
+  
   return (
     <section className="project-wrapper" id="Projects">
       <div className="paddings innerWidth project-container">
