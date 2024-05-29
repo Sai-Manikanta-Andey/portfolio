@@ -11,6 +11,12 @@
 
 /* hero left side */
 
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .hero-title>h1{
     font-size: 2rem;
     line-height: 3rem;
@@ -24,7 +30,6 @@
 .social-links{
     display: flex;
     gap: 1rem;
-    margin: 1rem 0rem;
    align-items: center;
     
 }
@@ -72,8 +77,8 @@
     
 }
 .image-container>img{
-    border-radius: 50%;
-    border: 2px solid rgb(0, 0, 0);
+ border-radius:  30% 70% 70% 30% / 30% 30% 70% 70%;
+    width: 290px;
 }
 
 
@@ -115,6 +120,9 @@
     .tech-stack-icons img{
        width: 25px;
     }
-    
+    .image-container>img{
+        width: 280px;
+        margin: 0;
+    }
     
 }

@@ -8,14 +8,16 @@ const Header = () => {
     const [OpenMenu,SetOpenMenu]=useState(false)
     const getStyle = (OpenMenu)=>{
         if(document.documentElement.clientWidth <768){
-            return {right: !OpenMenu && -200  }
+            return {right: !OpenMenu && -300  }
         }
     }
   return (
     <section className="h-wrapper">
       <header className="h-container innerWidth">
         <nav className="nav ">
-          <div className="nav-logo">Smk.dev</div>
+          <div className="nav-logo">
+            <img src="./text.png"  className="logo" alt="" />
+          </div>
           <OutsideClickHandler onOutsideClick={() => SetOpenMenu(false)}>
             <ul className="nav-items " style={getStyle(OpenMenu)}>
               <li>

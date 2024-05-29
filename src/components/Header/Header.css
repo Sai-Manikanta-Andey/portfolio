@@ -11,9 +11,16 @@
     overflow-x: clip;
 }
 .nav-logo{
-    font-size: 1.3rem;
-    font-weight: 600;
+    display: flex;
+    justify-content: center;
 }
+
+.logo{
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
 .nav-items{
     display: flex;
     gap: 1rem;
@@ -54,5 +61,11 @@ color: #F8CA0B;
     color:black;
 }
     
+}
+
+@media (max-width:500px) {
+    .logo{
+        width: 150px;
+    }
 }
 

@@ -19,7 +19,7 @@ export const projectData = [
     image: "./realestate.png",
 
     projectDescription:
-      "Crafted and engineered a real estate website using React and CSS.Empoweredusers to explore a diverse range of available rental and for-sale properties.Employed framer motion to enhance animations for a seamless experience with smooth transitions",
+      "Crafted and engineered a real estate website using React and CSS.Empowered users to explore a diverse range of available rental and for-sale properties.Employed framer motion to enhance animations for a seamless experience with smooth transitions",
     stack: [
       { id: 1, tech: "React" },
       { id: 2, tech: "CSS" },
@@ -34,7 +34,7 @@ export const projectData = [
     image: "./carvala.png",
 
     projectDescription:
-      "A platform where premium cars are available for renting and car services like washing, repairing, spare parts are also available 24/7. ",
+      "A platform where premium cars are available for renting and car services are available 24/7. Created a visually appealing rental platform utilizing React and Tailwind CSS, ensuring a modern and user-friendly design. To enhance performance, I implemented lazy loading. ",
     stack: [
       { id: 1, tech: "React" },
       { id: 2, tech: "Tailwind CSS" },

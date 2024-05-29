@@ -39,6 +39,18 @@ a{
     color: rgb(79, 79, 79);
 
 }
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 1.8rem;
+    background: #2189ff;
+    font-weight: 500;
+}
+
+button:hover {
+    background: #036ae0;
+    transition: all ease-in 500ms;
+}
 
 @media (max-width:640px) {
     .paddings{
@@ -50,7 +62,7 @@ a{
 }
 
 .secondaryText{
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 500;
     
 }

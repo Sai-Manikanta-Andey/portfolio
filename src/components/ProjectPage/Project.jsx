@@ -28,9 +28,9 @@ const Project = () => {
                     return <div key={eachItem.id}>{eachItem.tech}</div>;
                   })}
                 </div>
-                <div className="innerWidth project-buttons">
+                <div className=" project-buttons">
                   <div className="githubButton">
-                    <button>
+                    <button >
                       {" "}
                       <a href={eachObj.githubUrl} target="_blank">
                         <div className="buttons-inside">

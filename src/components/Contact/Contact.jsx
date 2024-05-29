@@ -15,7 +15,6 @@ const Contact = () => {
       onClick: () => toast.dismiss(), // Enable manual dismissal on click
     });
   const form = useRef();
-  console.log(form);
   const checkData = (form)=>{
     if(form.current[0].value.length===0 || form.current[1].value.length===0 || form.current[2].value.length===0 ){
       errorNotify()
@@ -53,7 +52,7 @@ const Contact = () => {
               Feel free to reach out for
               <strong style={{ color: "black" }}> job opportunities</strong> as
               I'm a recent graduate looking for oppurtunities, or any inquiries
-              related to my work. I'm excited to connect with fellow
+              related to my work, services. I'm excited to connect with fellow
               professionals in Web Technologies.
             </p>
           </div>
