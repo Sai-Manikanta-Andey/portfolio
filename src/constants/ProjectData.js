@@ -1,5 +1,19 @@
 export const projectData = [
   {
+    id: 7,
+    title: "Modern Nike Store",
+    image: "./Gemini.png",
+
+    projectDescription:
+      "This innovative app utilising Google's gemini API puts advanced AI tools at your fingertips. Chat and interact with Gemini to get help with writing, brainstorming, and learning. It's like having a personal AI assistant that understands text.  ",
+    stack: [
+      { id: 1, tech: "React" },
+      { id: 2, tech: "CSS" },
+    ],
+    liveUrl: "https://gemini-clone-smk.netlify.app/",
+    githubUrl: "https://github.com/Sai-Manikanta-Andey/GeminiClone",
+  },
+  {
     id: 6,
     title: "Gemini Clone ",
     image: "./Gemini.png",

@@ -8,7 +8,7 @@ const Header = () => {
     const [OpenMenu,SetOpenMenu]=useState(false)
     const getStyle = (OpenMenu)=>{
         if(document.documentElement.clientWidth <768){
-            return {right: !OpenMenu && -300  }
+            return {right: !OpenMenu && -1000  }
         }
     }
   return (
