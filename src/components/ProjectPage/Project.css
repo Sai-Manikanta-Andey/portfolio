@@ -12,6 +12,8 @@
 /* left side */
 
 .project-image>img {
+  width: 350px;
+  height: 200.45px;
   border-radius: 9px;
   margin-bottom: 1rem;
   transition: all 300ms ease-in;

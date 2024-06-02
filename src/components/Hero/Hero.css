@@ -33,6 +33,9 @@
    align-items: center;
     
 }
+.social-links > a>img{
+    width: 30px;
+}
 .social-links>a>img{
     transition: all 300ms ease-in;
 }
@@ -68,13 +71,14 @@
 }
 
 /* hero right side */
-.image-container{
-    width: 100%;
-    height: 100%;
+.hero-right{
     display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-    
+    justify-content: center;
+}
+
+.image-container{
+    width: 290px;
+    height: 290px;
 }
 .image-container>img{
  border-radius:  30% 70% 70% 30% / 30% 30% 70% 70%;

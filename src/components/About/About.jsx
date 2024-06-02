@@ -6,7 +6,7 @@ const About = () => {
       <div className="paddings innerWidth about-container">
         {/* left side */}
         <div className=" about-image">
-          <img src="./frontend.jpg" alt="frontend" width={400} />
+          <img src="./frontend.jpg" alt="frontend" />
         </div>
         {/* right side */}
         <div className="about">

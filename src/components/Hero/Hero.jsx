@@ -18,19 +18,19 @@ const Hero = () => {
             </div>
             <div className="social-links">
               <a href="https://github.com/Sai-Manikanta-Andey" target="_blank">
-                <img src="./github.svg" alt="github" width={30} />
+                <img src="./github.svg" alt="github"  />
               </a>
               <a
                 href="https://www.linkedin.com/in/sai-manikanta-andey/"
                 target="_blank"
               >
-                <img src="./linkedin.svg" alt="linkedin" width={30} />
+                <img src="./linkedin.svg" alt="linkedin"  />
               </a>
               <a
                 href="https://x.com/saiandey3?t=UCctt_4oLRBB1tvEUp4QpA&s=09"
                 target="_blank"
               >
-                <img src="./twitter.svg" alt="twitter" width={30} />
+                <img src="./twitter.svg" alt="twitter"  />
               </a>
             </div>
             {/* tech stack beginning */}
