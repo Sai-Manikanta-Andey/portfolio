@@ -42,12 +42,12 @@ const Hero = () => {
                   </h4>
                 </div>
                 <div className="tech-stack-icons">
-                  <img src="./html.svg" alt="html" width={30} />
-                  <img src="./css.svg" alt="css" width={30} />
-                  <img src="./tailwind-css.svg" alt="tailwindcss" width={30} />
-                  <img src="./javascript.svg" alt="js" width={30} />
-                  <img src="./react.svg" alt="react" width={30} />
-                  <img src="./redux.svg" alt="python" width={30} />
+                  <img src="./html.svg" alt="html"  />
+                  <img src="./css.svg" alt="css"  />
+                  <img src="./tailwind-css.svg" alt="tailwindcss"  />
+                  <img src="./javascript.svg" alt="js"   />
+                  <img src="./react.svg" alt="react"  />
+                  <img src="./redux.svg" alt="python"  />
                 </div>
               </div>
               <div className=" innerWidth tech-stack">
@@ -57,9 +57,9 @@ const Hero = () => {
                   </h4>
                 </div>
                 <div className="tech-stack-icons">
-                  <img src="./nodejs.svg" alt="css" width={30} />
-                  <img src="./express.svg" alt="html" width={30} />
-                  <img src="./mongodb.svg" alt="tailwindcss" width={30} />
+                  <img src="./nodejs.svg" alt="css"  />
+                  <img src="./express.svg" alt="html"  />
+                  <img src="./mongodb.svg" alt="tailwindcss"  />
                 </div>
               </div>
               
@@ -69,7 +69,7 @@ const Hero = () => {
           {/* hero right side */}
           <div className="hero-right innerWidth">
             <div className=" flexCenter image-container">
-              <img src="./profile-pic.png" alt="profilepic" width={250} />
+              <img src="./profile-pic.webp" alt="profilepic"  />
             </div>
           </div>
         </div>

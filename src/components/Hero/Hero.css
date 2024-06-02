@@ -35,6 +35,7 @@
 }
 .social-links > a>img{
     width: 30px;
+    height: 34.28px;
 }
 .social-links>a>img{
     transition: all 300ms ease-in;
@@ -51,6 +52,10 @@
     gap: 2rem;
     
 }
+.tech-stack-icons > img{
+    width: 25px;
+    height: 25px;
+} 
 
 .techstack-title>h4{
     display: flex;
