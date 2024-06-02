@@ -2,16 +2,18 @@ export const projectData = [
   {
     id: 7,
     title: "Modern Nike Store",
-    image: "./Gemini.png",
+    image: "./ShoeStore.webp",
 
     projectDescription:
-      "This innovative app utilising Google's gemini API puts advanced AI tools at your fingertips. Chat and interact with Gemini to get help with writing, brainstorming, and learning. It's like having a personal AI assistant that understands text.  ",
+      "The Nike Shoe Store project is a modern and responsive web application that showcases a collection of Nike shoes. It allows users to browse different shoe models and view detailed information about each product.",
     stack: [
       { id: 1, tech: "React" },
-      { id: 2, tech: "CSS" },
+      { id: 2, tech: "Tailwind CSS" },
+      { id: 3, tech: "Redux Toolkit" },
     ],
-    liveUrl: "https://gemini-clone-smk.netlify.app/",
-    githubUrl: "https://github.com/Sai-Manikanta-Andey/GeminiClone",
+    liveUrl: "https://smk-nike.netlify.app/",
+    githubUrl:
+      "https://github.com/Sai-Manikanta-Andey/React-Tailwind-Nike-Shoe-Store",
   },
   {
     id: 6,
@@ -23,6 +25,7 @@ export const projectData = [
     stack: [
       { id: 1, tech: "React" },
       { id: 2, tech: "CSS" },
+      { id: 3, tech: "Context API" },
     ],
     liveUrl: "https://gemini-clone-smk.netlify.app/",
     githubUrl: "https://github.com/Sai-Manikanta-Andey/GeminiClone",
@@ -33,7 +36,7 @@ export const projectData = [
     image: "./realestate.png",
 
     projectDescription:
-      "Crafted and engineered a real estate website using React and CSS.Empowered users to explore a diverse range of available rental and for-sale properties.Employed framer motion to enhance animations for a seamless experience with smooth transitions",
+      "A real-estate website crafted using React and CSS.Empowered users to explore a diverse range of available rental and for-sale properties.Employed framer motion to enhance animations for a seamless experience with smooth transitions",
     stack: [
       { id: 1, tech: "React" },
       { id: 2, tech: "CSS" },
@@ -48,10 +51,11 @@ export const projectData = [
     image: "./carvala.png",
 
     projectDescription:
-      "A platform where premium cars are available for renting and car services are available 24/7. Created a visually appealing rental platform utilizing React and Tailwind CSS, ensuring a modern and user-friendly design. To enhance performance, I implemented lazy loading. ",
+      "A platform where premium cars are available for renting and car services are available 24/7. Crafted a visually appealing rental platform utilizing React and Tailwind CSS, ensuring a modern and user-friendly design.",
     stack: [
       { id: 1, tech: "React" },
       { id: 2, tech: "Tailwind CSS" },
+      { id: 3, tech: "Redux Toolkit" },
     ],
     liveUrl: "https://car-rental007.vercel.app/",
     githubUrl:
@@ -67,6 +71,7 @@ export const projectData = [
     stack: [
       { id: 1, tech: "React" },
       { id: 2, tech: "CSS" },
+      { id: 3, tech: "Redux Toolkit" },
     ],
     liveUrl: "https://fakestoretest.vercel.app/",
     githubUrl: "https://github.com/Sai-Manikanta-Andey/EcommerceFakeApi",
