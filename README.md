@@ -2,6 +2,8 @@
 
 This is a dynamic and visually appealing portfolio showcasing my skills and experience in web development, built using React and CSS.
 
+### Performance ⚡
+
 ### ✨ Project Highlights
 
 - **Modular Design:** The portfolio is structured using well-defined React components for maintainability and flexibility.
