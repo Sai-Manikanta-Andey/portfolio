@@ -58,6 +58,19 @@ button:hover {
     background: #036ae0;
     transition: all ease-in 500ms;
 }
+#root{
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 @media (max-width:640px) {
     .paddings{
