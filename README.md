@@ -31,7 +31,7 @@ Feel free to use the project just give a star and fork it, follow if you like my
 
 ###  Components 🏗️
 
-- **Header:** Introduces your name and logo (or a brief tagline) with clear navigation links.
+- **Header:** Introduces my name with logo and with clear navigation links.
 - **Hero:** A captivating introductory section showcasing my tech stack, captivating image  with a tagline summarizing my skills.
 - **About:** Provides a personable introduction of myself, my work related skills. 
 - **ProjectsPage:** Displays my projects in a visually appealing and well-organized manner with summary of project. 
