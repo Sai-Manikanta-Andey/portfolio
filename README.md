@@ -1,6 +1,7 @@
 # Portfolio 🚀
 
 This is a dynamic and visually appealing portfolio showcasing my skills and experience in web development, built using React and CSS.
+Feel free to use the project just give a star and fork it, follow if you like my work.
 
 ![Screenshot 2024-06-05 112807](https://github.com/Sai-Manikanta-Andey/portfolio/assets/87435743/761ba3b3-889f-4f62-91b4-434b263b8f5c)
 
@@ -30,7 +31,7 @@ This is a dynamic and visually appealing portfolio showcasing my skills and expe
 
 ###  Components 🏗️
 
-- **Header:** Introduces your name and logo (or a brief tagline) with clear navigation links.
+- **Header:** Introduces my name with logo and with clear navigation links.
 - **Hero:** A captivating introductory section showcasing my tech stack, captivating image  with a tagline summarizing my skills.
 - **About:** Provides a personable introduction of myself, my work related skills. 
 - **ProjectsPage:** Displays my projects in a visually appealing and well-organized manner with summary of project. 
